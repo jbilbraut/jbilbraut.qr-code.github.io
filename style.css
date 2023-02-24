@@ -9,13 +9,13 @@ body {
 }
 
 #card {
-    padding: 15px;
+    padding: 18px;
     height: fit-content;
-    width: 350px;
+    width: 325px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -50,7 +50,7 @@ img {
     transform: translateX(-50%);
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
   
 
@@ -79,5 +79,8 @@ img {
       font-size: 1.2rem;
     }
 
+    .attribution {
+      font-size: 0.4rem;
+    }
     
   }
