@@ -1,4 +1,4 @@
-main {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,11 +15,12 @@ main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 img {
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .cardText {
@@ -34,9 +35,10 @@ img {
     font-weight: 400;
     padding: 10px 30px;
     font-size: 1rem;
+    color: hsl(220, 15%, 55%);
 }
 
-.cardText span {
+.cardText h1 {
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -52,7 +54,7 @@ img {
   }
   
 
-@media only screen and (min-width: 375px) {
+@media (max-width: 376px) {
 
     img {
         width: 275px;
@@ -73,7 +75,9 @@ img {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .cardText span {
+    .cardText h1 {
       font-size: 1.2rem;
     }
+
+    
   }
